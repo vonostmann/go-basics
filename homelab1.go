@@ -137,6 +137,5 @@ func calculateRectanglePerimeter(side3 int, side4 int) (float32, error) {
 	if side4 <= 0 {
 		return float32(0), errors.New("Сторона прямоугольника не может быть отрицательным числом!")
 	}
-
 	return (float32(side3) + float32(side4)) * 2, nil
 }
