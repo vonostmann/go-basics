@@ -1,14 +1,14 @@
 package main
 
 import (
-	"fmt"
 	"errors"
+	"fmt"
 )
 
 const pi = 3.1415
 
 func main() {
-	printCircleArea(-2)
+	printCircleArea(2)
 }
 
 func printCircleArea(radius int) {
