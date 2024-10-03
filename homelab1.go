@@ -40,7 +40,7 @@ func printTriangleArea(side1 int, side2 int) {
 		return
 	}
 	fmt.Printf("Расчет площади треугольника:\n")
-	fmt.Printf("_____________________\n")
+	fmt.Printf("____________________________\n")
 	fmt.Printf("Сторона 1: %d см.\n", side1)
 	fmt.Printf("Сторона 2: %d см.\n", side2)
 	fmt.Println("Формула для расчета площади треугольника: S=(A*B)/2\n")
@@ -54,7 +54,7 @@ func printTrianglePerimeter(side1 int, side2 int) {
 		return
 	}
 	fmt.Printf("Расчет периметра треугольника:\n")
-	fmt.Printf("_____________________\n")
+	fmt.Printf("______________________________\n")
 	fmt.Printf("Сторона 1: %d см.\n", side1)
 	fmt.Printf("Сторона 2: %d см.\n", side2)
 	fmt.Println("Формула для расчета периметра треугольника: S=(A+B)*2\n")
@@ -68,7 +68,7 @@ func printRectanglePerimeter(side3 int, side4 int) {
 		return
 	}
 	fmt.Printf("Расчет периметра прямоугольника:\n")
-	fmt.Printf("_____________________\n")
+	fmt.Printf("________________________________\n")
 	fmt.Printf("Сторона 1: %d см.\n", side3)
 	fmt.Printf("Сторона 2: %d см.\n", side4)
 	fmt.Println("Формула для расчета периметра прямоугольника: S=(A+B)*2\n")
@@ -82,7 +82,7 @@ func printRectangleArea(side3 int, side4 int) {
 		return
 	}
 	fmt.Printf("Расчет площади прямоугольника:\n")
-	fmt.Printf("_____________________\n")
+	fmt.Printf("______________________________\n")
 	fmt.Printf("Сторона 1: %d см.\n", side3)
 	fmt.Printf("Сторона 2: %d см.\n", side4)
 	fmt.Println("Формула для расчета площади прямоугольника: S=A*B\n")
